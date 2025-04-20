@@ -1,0 +1,142 @@
+{
+    "produtos": [
+        {
+            "nome": "Bolo Naked Cake",
+            "descricao": "Bolo estilo naked com recheio de frutas vermelhas",
+            "preco": 120.00,
+            "imagem": "bolo-naked.jpg"
+        },
+        {
+            "nome": "Bolo de Chocolate",
+            "descricao": "Bolo de chocolate belga com recheio de ganache",
+            "preco": 90.00,
+            "imagem": "bolo-chocolate.jpg"
+        },
+        {
+            "nome": "Bolo de Cenoura",
+            "descricao": "Bolo de cenoura com cobertura de chocolate",
+            "preco": 85.00,
+            "imagem": "bolo-cenoura.jpg"
+        },
+        {
+            "nome": "Caixa de Doces Finos",
+            "descricao": "Seleção de 12 doces finos variados",
+            "preco": 65.00,
+            "imagem": "./images/logo.png"
+        },
+        {
+            "nome": "Bem-casados Premium",
+            "descricao": "Caixa com 12 bem-casados recheados",
+            "preco": 45.00,
+            "imagem": "bolo decorado.png"
+        },
+        {
+            "nome": "Cupcake Decorado",
+            "descricao": "Cupcake com buttercream e decoração personalizada",
+            "preco": 12.00,
+            "imagem": "cupcake.jpg"
+        }
+    ],
+    "cardapio": {
+        "bolos": [
+            {
+                "nome": "Bolo Naked Cake",
+                "preco": 120.00
+            },
+            {
+                "nome": "Bolo de Chocolate Belga",
+                "preco": 90.00
+            },
+            {
+                "nome": "Bolo de Cenoura com Chocolate",
+                "preco": 85.00
+            },
+            {
+                "nome": "Bolo Red Velvet",
+                "preco": 110.00
+            },
+            {
+                "nome": "Bolo de Limão com Merengue",
+                "preco": 95.00
+            }
+        ],
+        "doces": [
+            {
+                "nome": "Caixa de Doces Finos (12 unidades)",
+                "preco": 65.00
+            },
+            {
+                "nome": "Brigadeiro Gourmet (30 unidades)",
+                "preco": 50.00
+            },
+            {
+                "nome": "Beijinho (30 unidades)",
+                "preco": 50.00
+            },
+            {
+                "nome": "Trufas de Chocolate (20 unidades)",
+                "preco": 60.00
+            }
+        ],
+        "bem-casados": [
+            {
+                "nome": "Bem-casados Tradicionais (12 unidades)",
+                "preco": 45.00
+            },
+            {
+                "nome": "Bem-casados Premium (12 unidades)",
+                "preco": 60.00
+            },
+            {
+                "nome": "Bem-casados Gourmet (6 unidades)",
+                "preco": 40.00
+            }
+        ],
+        "outros": [
+            {
+                "nome": "Cupcake Decorado (unidade)",
+                "preco": 12.00
+            },
+            {
+                "nome": "Brownie (unidade)",
+                "preco": 8.00
+            },
+            {
+                "nome": "Cookies (6 unidades)",
+                "preco": 25.00
+            }
+        ]
+    },
+    "pedidos": [
+        {
+            "nome": "Bolo Naked Cake",
+            "preco": 120.00,
+            "imagem": "bolo-naked.jpg"
+        },
+        {
+            "nome": "Caixa de Doces Finos",
+            "preco": 65.00,
+            "imagem": "doces-finos.jpg"
+        },
+        {
+            "nome": "Bem-casados Premium",
+            "preco": 60.00,
+            "imagem": "bem-casados.jpg"
+        },
+        {
+            "nome": "Cupcake Decorado",
+            "preco": 12.00,
+            "imagem": "cupcake.jpg"
+        },
+        {
+            "nome": "Brigadeiro Gourmet",
+            "preco": 50.00,
+            "imagem": "Screenshot_5.png"
+        },
+        {
+            "nome": "Brownie",
+            "preco": 8.00,
+            "imagem": "brownie.jpg"
+        }
+    ]
+}

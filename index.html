@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confeitaria Magnífica - Bolos e Doces Finos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./images/logo.png" alt="Confeitaria Magnífica">
+                <div>
+                    <h1>MAGNIFICA</h1>
+                    <span class="logo-subtitle">CONFEITARIA • POR LIDIANA COSTA</span>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#cardapio">Cardápio</a></li>
+                    <li><a href="#orcamento">Orçamento</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <c">Arte doce assinada por Lidiana Costa</h2>
+                <p>Confeitaria premium onde cada doce é uma criação única</p>
+                <a href="#produtos" class="btn">Descubra nossas delícias</a>
+            </div>
+        </section>
+
+        <section id="produtos" class="produtos-section">
+            <div class="container">
+                <h2>Nossos Produtos</h2>
+                <div class="produtos-grid" id="produtos-container">
+                    <!-- Produtos serão carregados via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="cardapio" class="cardapio-section">
+            <div class="container">
+                <h2>Cardápio Completo</h2>
+                <div class="cardapio-options">
+                    <button class="tab-btn active" data-tab="bolos">Bolos</button>
+                    <button class="tab-btn" data-tab="doces">Doces</button>
+                    <button class="tab-btn" data-tab="bem-casados">Bem-casados</button>
+                    <button class="tab-btn" data-tab="outros">Outros</button>
+                </div>
+                <div class="tab-content active" id="bolos">
+                    <!-- Conteúdo será carregado via JavaScript -->
+                </div>
+                <div class="tab-content" id="doces">
+                    <!-- Conteúdo será carregado via JavaScript -->
+                </div>
+                <div class="tab-content" id="bem-casados">
+                    <!-- Conteúdo será carregado via JavaScript -->
+                </div>
+                <div class="tab-content" id="outros">
+                    <!-- Conteúdo será carregado via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="orcamento" class="orcamento-section">
+            <div class="container">
+                <h2>Solicite um Orçamento</h2>
+                <form id="orcamento-form">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="produto-interesse">Produto de interesse:</label>
+                        <select id="produto-interesse" name="produto-interesse">
+                            <option value="">Selecione...</option>
+                            <option value="bolo">Bolo</option>
+                            <option value="doces">Caixa de Doces</option>
+                            <option value="bem-casados">Bem-casados</option>
+                            <option value="outros">Outros</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Detalhes do pedido:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Orçamento</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="pedidos" class="pedidos-section">
+            <div class="container">
+                <h2>Faça seu Pedido</h2>
+                <div class="pedido-instructions">
+                    <p>Selecione os itens desejados e envie diretamente para nosso WhatsApp</p>
+                </div>
+                <div class="pedido-grid" id="pedido-container">
+                    <!-- Itens para pedido serão carregados via JavaScript -->
+                </div>
+                <button id="finalizar-pedido" class="btn">Finalizar Pedido no WhatsApp</button>
+            </div>
+        </section>
+
+        <section id="instagram" class="instagram-section">
+            <div class="container">
+                <h2>Siga-nos no Instagram</h2>
+                <div class="instagram-feed" id="instagram-feed">
+                    <!-- Feed será carregado via JavaScript -->
+                </div>
+                <a href="https://www.instagram.com/magnificaconfeitarialc/" class="btn" target="_blank">
+                    <i class="fab fa-instagram"></i> @confeiteria_magnifica
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Confeitaria Magnífica">
+                    <h3>Magnífica</h3>
+                </div>
+                <p>Doces finos e bolos artesanais feitos com amor</p>
+            </div>
+            <div class="footer-contato">
+                <h4>Contato</h4>
+                <p><i class="fas fa-phone"></i> (85) 9 9706 - 3315</p>
+                <p><i class="fas fa-envelope"></i> contato@magnifica.com.br</p>
+                <p><i class="fas fa-map-marker-alt"></i> Endereço da loja, Cidade - Estado</p>
+            </div>
+            <div class="footer-social">
+                <h4>Redes Sociais</h4>
+                <a href="https://www.instagram.com/magnificaconfeitarialc/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com/confeiteria_magnifica" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://wa.me/558597063315" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Confeitaria Magnífica. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
